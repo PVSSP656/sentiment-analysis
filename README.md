@@ -222,7 +222,7 @@ pip install -r requirements.txt
 
 ## 17. Running the Jupyter Notebook
 ```powershell
-jupyter notebook notebooks/sentiment_analysis.ipynb
+jupyter notebook notebooks/sentiment_analysis_clean.ipynb
 ```
 The notebook executes end-to-end, reproducing all analytical sections, EDA plots, baseline comparisons, and model evaluations.
 

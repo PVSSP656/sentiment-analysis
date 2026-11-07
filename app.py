@@ -40,7 +40,7 @@ async def lifespan(app: FastAPI):
     if not VEC_PATH.exists() or not MODEL_PATH.exists():
         raise RuntimeError(
             f"Required model artifacts missing in {ARTIFACTS_DIR}. "
-            "Ensure Step 10 serialization in notebooks/sentiment_analysis.ipynb has executed."
+            "Ensure model serialization in notebooks/sentiment_analysis_clean.ipynb has executed."
         )
     models["vectorizer"] = joblib.load(VEC_PATH)
     models["model"] = joblib.load(MODEL_PATH)
