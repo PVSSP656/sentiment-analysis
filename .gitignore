@@ -1,0 +1,37 @@
+# Python virtual environment
+.venv/
+env/
+venv/
+ENV/
+
+# Python byte-code and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Raw large datasets (do not commit raw data files)
+data/raw/
+data/raw/*
+!data/raw/.gitkeep
+data/processed/
+data/processed/*
+!data/processed/.gitkeep
+
+# Environment variables and secrets
+.env
+*.env
+*.pem
+*.key
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
